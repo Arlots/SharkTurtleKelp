@@ -1,0 +1,209 @@
+body {
+    margin: 0 0;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    color: black;
+    font-size: 45px;
+}
+
+.background {
+    background-image: url('./images/the-bottom-of-the-sea-geaadc7b20_1920.jpg');
+
+   
+}
+
+.information {
+    width: 1000px;
+    height: 1000px;
+    background-color: transparent;
+    
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #48d9f8aa;
+}
+.instructions {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+/* Decided to remove the begin button, but leave the code for possible future use.
+.beginButton {
+    display: block;
+    height: 50px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+*/
+.cardText {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.playerCardText, .computerCardText {
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.emptyChoices {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 200px;
+    /*border: 5px solid black;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.playerCard {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.computerCard {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.cardChoices {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 200px;
+    /*border: 5px solid black;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+
+.sharkCard {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #48d9f860;
+}
+
+.turtleCard {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #48d9f860;
+}
+
+.kelpCard {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #48d9f860;
+
+}
+
+.sharkImg, .turtleImg, .kelpImg {
+    width: 200px;
+    height: 200px;
+}
+
+.sharkImgChoice, .turtleImgChoice, .kelpImgChoice {
+    width: 200px;
+    height: 200px;
+}
+
+.compSharkChoice, .compTurtleChoice, .compKelpChoice {
+    width: 200px;
+    height: 200px;
+}
+
+.resultTie {
+    font-size: 40px;
+    text-align: center;
+    background-color: white;
+    margin-top: -10px;
+}
+
+.resultLose {
+    font-size: 40px;
+    text-align: center;
+    background-color: red;
+    margin-top: -10px;
+}
+
+.resultWin {
+    font-size: 40px;
+    text-align: center;
+    background-color: aquamarine;
+    margin-top: -10px;
+}
+
+.computerWins {
+    position: fixed;
+    top: 300px;
+    right: 10px;
+    font-size: 25px;
+    background-color: aquamarine;
+}
+
+.playerWins {
+    position: fixed;
+    top: 300px;
+    font-size: 25px;
+    left: 10px;
+    background-color: aquamarine;
+}
+
+.playerWinCount {
+    position: fixed;
+    top: 300px;
+    left: 40px;
+    font-size: 80px;
+    background-color: aquamarine;
+}
+
+.computerWinCount {
+    position: fixed;
+    top: 300px;
+    right: 40px;
+    font-size: 80px;
+    background-color: aquamarine;
+}
+
+.grandWin {
+    font-size: 80px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.grandLose {
+    font-size: 80px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.resetButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 500px;
+    background-color: white;
+    font-size: 50px;
+}
