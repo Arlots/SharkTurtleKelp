@@ -187,14 +187,14 @@ h1 {
 .grandWin {
     font-size: 80px;
     text-align: center;
-    background-color: black;
+    background-color: green;
     color: white;
 }
 
 .grandLose {
     font-size: 80px;
     text-align: center;
-    background-color: black;
+    background-color: red;
     color: white;
 }
 
